@@ -3,16 +3,20 @@ package OOP.dog;
 public class Dog {
     // 1. Write your properties here. 
     public String name; 
-    // add more properties below
+    public String type;
+    public boolean big;
+    
 
     // 2. Fill in the constructor below so that the dog's name is correctly set
-    public Dog(String dogName, __, __) {
+    public Dog(String dogName, String dogType, boolean dogBig) {
         this.name = dogName; 
-        // add more initializers below
+        this.type = dogType;
+        this.big = dogBig;
     }
 
     // 3. Write your methods here. 
     public void bark() {
+
         // Add print statement to bark!
     }
 

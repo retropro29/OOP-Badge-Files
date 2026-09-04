@@ -3,11 +3,11 @@ package OOP.accounts;
 public class UserAccount {
     // 1. Fill out the properties
     public String username; 
-    private String password; 
-    private int age;
+    public String password; 
+    public int age;
 
     // 2. Write constructor for UserAccount
-    public UserAccount(String username, String password, int age) {
+    public UserAccount(String username, String password , int age) {
         this.username = username; 
         this.password = password; 
         this.age = age;   
