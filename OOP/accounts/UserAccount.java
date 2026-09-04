@@ -2,9 +2,9 @@ package OOP.accounts;
 
 public class UserAccount {
     // 1. Fill out the properties
-    public String username; 
-    public String password; 
-    public int age;
+    private String username; 
+    private String password; 
+    private int age;
 
     // 2. Write constructor for UserAccount
     public UserAccount(String username, String password , int age) {

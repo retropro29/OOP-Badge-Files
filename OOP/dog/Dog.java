@@ -2,9 +2,9 @@ package OOP.dog;
 
 public class Dog {
     // 1. Write your properties here. 
-    public String name; 
-    public String type;
-    public boolean big;
+    private String name; 
+    private String type;
+    private boolean big;
 
 
     // 2. Fill in the constructor below so that the dog's name is correctly set
