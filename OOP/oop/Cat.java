@@ -2,24 +2,22 @@ package OOP.oop;
 
 import OOP.oop.Animal;
 
-public class Cat {
-    public String name;
-    public int age;
+public class Cat extends Animal{
 
-    public Cat(String catName, int catAge){
-        this.name = catName;
-        this.age = catAge;
+    Cat(String name, int age){
+        super(name, age);
     }
 
-    public void meow(){
-        if (this.age > 10){
-            System.out.println(this.name + " meows at you wisely");
+    @Override
+    public void animalSound(){
+        if (super.getAge() > 10){
+            System.out.println(this.getName() + " meows at you wisely");
         }
-        else if (this.age < 5){
-            System.out.println(this.name + " meows at you naively");
+        else if (super.getAge() < 5){
+            System.out.println(this.getName() + " meows at you naively");
         }
         else {
-            System.out.println(this.name + " meows at you.");
+            System.out.println(this.getName() + " meows at you.");
         }
         
     }

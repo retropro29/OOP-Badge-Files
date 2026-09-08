@@ -2,23 +2,23 @@ package OOP.oop;
 
 import OOP.oop.Animal;
 
-public class Dog extends Animal{
+public class Bird extends Animal{
 
 
-    Dog(String name, int age){
+    Bird(String name, int age){
         super(name, age);
     }
 
     @Override
     public void animalSound(){
         if (super.getAge() > 10){
-            System.out.println(this.getName() + " woofs at you wisely");
+            System.out.println(this.getName() + " tweets at you wisely");
         }
         else if (super.getAge() < 5){
-            System.out.println(this.getName() + " woofs at you naively");
+            System.out.println(this.getName() + " tweets at you naively");
         }
         else {
-            System.out.println(this.getName() + " woofs at you.");
+            System.out.println(this.getName() + " tweets at you.");
         }
         
     }
