@@ -7,9 +7,9 @@ public class Runner {
         Bird bird1;
 
         Animal[] animals = {
-            cat1 = new Cat("Harvey Jiang", 15),
-            dog1 = new Dog("Harvey Jiang", 15),
-            bird1 = new Bird("Harvey Jiang", 15)
+            cat1 = new Cat("Fire Blanket", 7),
+            dog1 = new Dog("fax Office", 15),
+            bird1 = new Bird("Copy Paper", 3)
         };
 
 

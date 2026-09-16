@@ -5,7 +5,7 @@ import OOP.accounts.UserAccount;
 public class AccountsRunner1 {
     public static void main(String[] args) {
         //  Then, write a program which involves calling both of Bill's methods.  
-        UserAccount bill = new UserAccount("Bill", "Password123",27); 
+        UserAccount bill = new UserAccount("Bill", "Password123", 27); 
 
         String user = bill.returnUser();
         String pass = bill.returnPass();

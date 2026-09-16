@@ -16,13 +16,22 @@ public class Dog {
 
     // 3. Write your methods here. 
     public void bark() {
-        if (this.big){
+        if (big){
             System.out.println(this.name + ", the " + this.type + " barks menacingy at you");
         }
         else{
             System.out.println(this.name + ", the " + this.type + " barks cutely at you");
         }
     }
+
+    public boolean winInFight(){
+        if (big){return true;}
+        else {return false;}
+    }
+
+    public String getName(){return name;}
+    public String getType(){return type;}
+    public boolean getBig(){return big;}
 
     
 }

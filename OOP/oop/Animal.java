@@ -12,8 +12,12 @@ public class Animal {
         this.age = animalAge;
     }
 
-    public void animalSound(){
+    public void animalSound(){  
         System.out.println("This is the sound that an animal makes");
+    }
+
+    public void maintenanceDifficulty(){
+        System.out.println("This tells you how hard it is to maintain an animal");
     }
 
     public void describe(){
