@@ -12,6 +12,7 @@ public class Runner {
             bird1 = new Bird("Copy Paper", 3)
         };
 
+        Animal name = new Cat("cat", 12);
 
         for (int i=0; i < animals.length; i++){
             animals[i].animalSound();

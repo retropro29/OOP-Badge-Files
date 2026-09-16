@@ -21,6 +21,11 @@ public class Cat extends Animal{
         }
         
     }
+
+    @Override
+    public void maintenanceDifficulty(){
+        System.out.println("This animal is very easy to keep as a pet");
+    }
     // 1. Complete your Cat class:
     //    - Add the properties "name" and "age"
     //    - Add a constructor that initializes both properties
